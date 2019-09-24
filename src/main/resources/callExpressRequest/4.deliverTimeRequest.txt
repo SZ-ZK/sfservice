@@ -1,0 +1,22 @@
+<Request service='DeliverTmService' lang='zh-CN'>  
+<Head>BSPdevelop</Head> 
+<Body>
+	<DeliverTmRequest
+		business_type=''
+		search_price='1'
+		consigned_time='寄件时间'>
+	<SrcAddress
+		province=''
+		city=''
+		district=''
+		code=''
+		address='新洲十一街万基商务大厦'/>
+	<DestAddress
+		province=''
+		city=''
+		district=''
+		code=''
+		address='广州白云山'/>
+	</DeliverTmRequest>
+</Body>
+</Request>

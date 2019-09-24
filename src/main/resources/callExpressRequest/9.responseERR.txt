@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response service="RoutePushService">
+    <Head>ERR</Head>
+    <ERROR code="4001">系统发生数据错误或运行时异常</ERROR>
+</Response>

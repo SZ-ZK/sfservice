@@ -1,0 +1,9 @@
+<Request service='RouteService' lang='zh-CN'>
+<Head>SLKJ2019</Head>
+	<Body>
+		<RouteRequest
+		tracking_type='1'
+		method_type='1'
+		tracking_number='QIAO-20180104001'/>
+	</Body>
+</Request>

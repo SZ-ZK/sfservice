@@ -1,0 +1,9 @@
+<Request service='OrderConfirmService' lang='zh-CN'>
+<Head>SLKJ2019</Head>
+	<Body>
+		<OrderConfirm
+		orderid='QIAO-20180104001'
+		dealtype='2'>
+		</OrderConfirm>
+	</Body>
+</Request>
