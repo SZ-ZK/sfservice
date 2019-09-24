@@ -4,9 +4,6 @@
 	xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 		
-	<import resource="spring/spring-profile.xml"/>
 	<import resource="spring/spring-service.xml"/>
-	<import resource="spring/spring-quartz.xml"/>
-	<import resource="spring/spring-aop.xml"/>
 
 </beans>
