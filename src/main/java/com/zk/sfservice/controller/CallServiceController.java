@@ -46,11 +46,11 @@ public class CallServiceController {
 	// 调用丰桥平台API接口路径
 	private static final String reqURL = "https://bsp-oisp.sf-express.com/bsp-oisp/sfexpressService";
 	// 此处替换为您在丰桥平台获取的顾客编码
-	private static final String clientCode = "";
+	private static final String clientCode = "ZGRMCCBX_nZy9Z";
 	// 此处替换为您在丰桥平台获取的校验码
-	private static final String checkword = "";
+	private static final String checkword = "EgvdIniWXiD1kV1TgxLYjXbhyuQOrX1R";
 	// 此处替换为您在丰桥平台获取的月结卡
-	private static final String monthCard = "";
+	private static final String monthCard = "7551234567";
 
 	SimpleDateFormat sdfMilH = new SimpleDateFormat("yyMMdd");
 
@@ -222,12 +222,12 @@ public class CallServiceController {
 		reqXml = reqXml.replace("TB1207300000001", orderStatusVO.getSendorder()); // 此处替换为订单号
 		reqXml = reqXml.replace("ZHANGSAN", orderStatusVO.getSendName()); // 此处替换为寄件人姓名
 		reqXml = reqXml.replace("15012345678", orderStatusVO.getSendMobile()); // 此处替换为寄件人电话
-		reqXml = reqXml.replace("广东省深圳市罗湖区罗芳路南方大厦20楼", orderStatusVO.getSendDetailAddress()); // 此处替换寄件人详细地址
+		reqXml = reqXml.replace("广东省深圳市罗湖区深港大厦35楼0805室", orderStatusVO.getSendDetailAddress()); // 此处替换寄件人详细地址
 		reqXml = reqXml.replace("LISI", orderStatusVO.getReceiveName()); // 此处替换为收件人姓名
 		reqXml = reqXml.replace("33992159", orderStatusVO.getReceiveMobile()); // 此处替换为收件人电话
 		reqXml = reqXml.replace("广东省广州市海珠区宝芝林大厦701室", orderStatusVO.getReceiveDetailAdress()); // 此处替换收件人详细地址
 		reqXml = reqXml.replace("支付方式", orderStatusVO.getSendtype()); // 此处替换付款方式:1-寄方付，2-收方付，3-第三方付
-		reqXml = reqXml.replace("7551234567", monthCard); // 此处替换月结卡
+		reqXml = reqXml.replace("月结卡号", monthCard); // 此处替换月结卡
 		reqXml = reqXml.replace("上门取件时间", sdf.format(orderStatusVO.getCometime()));// 此处替换为上门取件时间
 
 		try {

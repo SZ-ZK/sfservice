@@ -5,12 +5,12 @@
 	      orderid="TB1207300000001" 
 	      j_contact='ZHANGSAN'
 	      j_tel='15012345678'
-	      j_address='广东省深圳市罗湖区罗芳路南方大厦20楼'              
+	      j_address='广东省深圳市罗湖区深港大厦35楼0805室'              
 		  d_contact='LISI' 
 		  d_tel='33992159' 
 		  d_address='广东省广州市海珠区宝芝林大厦701室'  
 	      pay_method='支付方式'
-	      custid ='7551234567'  
+	      custid ='月结卡号'  
 	      sendstarttime='上门取件时间' 
 	      is_docall='1'
 	      is_unified_waybill_no='1'>
