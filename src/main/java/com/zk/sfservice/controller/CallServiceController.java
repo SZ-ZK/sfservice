@@ -46,11 +46,11 @@ public class CallServiceController {
 	// 调用丰桥平台API接口路径
 	private static final String reqURL = "https://bsp-oisp.sf-express.com/bsp-oisp/sfexpressService";
 	// 此处替换为您在丰桥平台获取的顾客编码
-	private static final String clientCode = "ZGRMCCBX_nZy9Z";
+	private static final String clientCode = "";
 	// 此处替换为您在丰桥平台获取的校验码
-	private static final String checkword = "EgvdIniWXiD1kV1TgxLYjXbhyuQOrX1R";
+	private static final String checkword = "";
 	// 此处替换为您在丰桥平台获取的月结卡
-	private static final String monthCard = "7551234567";
+	private static final String monthCard = "";
 
 	SimpleDateFormat sdfMilH = new SimpleDateFormat("yyMMdd");
 
